@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="confluent.kafka" Version="2.2.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="release\release\release\web.config" />
+      <_ContentIncludedByDefault Remove="release\release\web.config" />
+      <_ContentIncludedByDefault Remove="release\web.config" />
+      <_ContentIncludedByDefault Remove="release\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="release\appsettings.json" />
+      <_ContentIncludedByDefault Remove="release\release\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="release\release\appsettings.json" />
+      <_ContentIncludedByDefault Remove="release\release\release\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="release\release\release\appsettings.json" />
+      <_ContentIncludedByDefault Remove="release\release\release\TestGround.deps.json" />
+      <_ContentIncludedByDefault Remove="release\release\release\TestGround.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="release\release\TestGround.deps.json" />
+      <_ContentIncludedByDefault Remove="release\release\TestGround.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="release\TestGround.deps.json" />
+      <_ContentIncludedByDefault Remove="release\TestGround.runtimeconfig.json" />
+    </ItemGroup>
+
+</Project>
